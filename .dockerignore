@@ -1,0 +1,29 @@
+# Virtual environment
+.venv/
+venv/
+ENV/
+
+# Python bytecode & caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.mypy_cache/
+
+# Git & IDE metadata
+.git/
+.gitignore
+.idea/
+.vscode/
+
+# Secrets & local configuration
+.env
+.env.local
+serviceAccountKey.json
+*.pem
+
+# Documentation & miscellaneous
+README.md
+Dockerfile
+.dockerignore
